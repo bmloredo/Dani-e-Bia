@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+header{
+    height: 27rem;
+    background-image: url('./images/topo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+.background{
+    height: 25rem;
+    width: 100%;
+    position: absolute;
+}
+*/
+
+
+.logo{
+    display: flex;
+    position: absolute;
+    height: 11rem;
+    left: 15.5%;
+    top: 5%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -3rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+  
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu a{
+    color: white;
+    border-radius: 7px 7px 0 0;
+    padding: 1rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .home{
+    border: outset white;
+    border-width: 0.2rem 0 0 0;
+}
+
+.sobre, .cardapio, .salao, .decoracao,.contato{
+    border: outset white;
+    border-width: 0.2rem 0 0 0.2rem;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 54.979rem;  
+}
+
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 88%;
+    width: 65%;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1rem;
+}
+
+.card div{
+    display: flex;
+    align-items: center;
+}
+
+.card a{
+    display: flex;
+}
+
+.card p{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin-left: 0.7rem;
+}
+
+
+/*Imagens Cards
+.brinquedo, .img-salao{
+    padding: 1rem;
+}
+*/
+
+
+.p-cardapio{
+    display: flex;
+    width: 65%;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.hamburguer{
+    height: auto;
+    width: 100%;
+}
+
+.brinquedo-img{
+    width: 8rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-brinquedo{
+    display: flex;
+    align-items: flex-start;
+    width: 8rem;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    margin-right: 1.5rem;
+}
+
+.brinquedo{
+    padding: 0.2rem 0.3rem 0 1rem;
+    width: 90%;
+    height: 90%;
+}
+
+
+.p-salao{
+    text-shadow: 0.1rem 0.1rem 0.2rem white;
+    width: 8rem;
+}
+
+.salao-img{
+    display: flex;
+    width: 8.2rem;
+}
+
+.img-salao{
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 100%;
+    height: 95%;
+}
+
+
+
+
+
+.card-cardapio{
+    background-color: rgb(145,82,127);
+    width: 16.5rem;
+    height: 9rem;
+    margin-right: 1rem;
+}
+
+.card-brinquedos{
+    background-color: #e77826;
+    width: 16.5rem;
+    height: 9rem;
+    margin-right: 1rem;
+    display: flex;
+}
+
+.card-salao{
+    background-color: rgb(142,191,63);
+    width: 16.5rem;
+    height: 9rem;
+}
+
+
+
+/*Estilização Cores*/
+.card a{
+    color: white;
+}
+
+span.verde{    
+    color: rgb(140, 180, 66);
+}
+
+span.roxo{    
+    color: rgb(168, 110, 142);
+}
+
+span.laranja{    
+    color: rgb(226, 180, 111);
+}
+
+
+/*Estilização cores Menu*/
+.home{
+    background-color: #01662C;
+    font-family: sans-serif;
+}
+
+.sobre{
+    background-color: rgb(142, 191, 63);
+    font-family: sans-serif;
+}
+
+.cardapio{
+    background-color: rgb(231,120,38);
+    font-family: sans-serif;
+}
+
+
+.salao{
+    background-color: rgb(53, 148, 192);
+    font-family: sans-serif;
+}
+
+.decoracao{
+    background-color: rgb(194, 13, 92);
+    font-family: sans-serif;
+}
+
+.contato{
+    background-color: rgb(145, 82, 127);
+    font-family: sans-serif;
+}
+
+
+/* Disclaimer Loja e Input*/
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.explain{
+    width: 28.8rem;
+    line-height: 1rem;
+    margin-left: 3rem;
+}
+
+.input{
+    font-family: sans-serif;
+    margin-left: 2rem;
+    width: 27.5rem;
+}
+
+.titulo{
+    display: flex;
+    align-items: flex-end;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+
+.explain p{
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 0.9575rem;
+    color: rgb(121, 120, 120);
+}
+
+.explain h2{
+    display: flex;
+    margin-left: 0.5rem;
+    color: rgb(146, 82, 129);
+}
+
+.estrela{
+    height: 2rem;
+}
+
+.title-p{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.title-p h2{
+    margin-bottom: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.title-p p{
+    width: 26rem;
+    font-size: 0.9575rem;
+    margin-bottom: 0rem;
+    color: rgb(121, 120, 120);
+}
+
+label{
+    color: rgb(121, 120, 120); 
+}
+
+
+.name{
+    width: 80%;
+}
+
+form div{
+    margin: 1rem 0 1rem 1rem;
+}
+
+.telefone{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ddd{
+    width: 1.8rem;
+    margin-right: 0.2rem;
+}
+
+.email{
+    width: 78.9%;
+}
+
+.telem{
+    display: flex;
+    align-items: flex-end;
+    margin: -1rem 0 0 0;
+}
+
+.input-tel{
+    margin-left: -0.1rem;
+}
+
+.input-email{
+    margin-left: 0.8rem;
+    margin-top: -0.1rem;
+}
+
+.button{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.bt{
+    width: 6rem;
+    height: 2.5rem;
+    background-color: 	rgba(231,120,38,255);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input{
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 10rem;
+    height: 10rem;
+    background-image: url('./images/footer.jpg');
+    background-size: 100% 100%;
+}
+
+.content-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    margin: 1.2rem 3rem 0 3rem;
+    height: 7.3rem;
+}
+
+.menu-footer a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.p-footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.copy{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+.facebook{
+    position: relative;
+    display: flex;
+    align-items: center;
+    right: 18.5rem;
+}
+
+.facebook img{
+    width: 33%;
+    height: 33%;
+}
